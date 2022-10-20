@@ -8,13 +8,26 @@ We need to select one of the datasets and run an ETL process using PySpark to ex
 
 
 ## Results
+
 ### ETL on the Amazon reviews
+
 Using our knowledge of cloud ETL processes, we created an AWS RDS database with tables in pgAdmin, selected a dataset from the Amazon Review dataset, and extracted that dataset into a DataFrame. We also converted the DataFrame into four separate DataFrames that match the table schema in pgAdmin. We then upload the transformed data to the appropriate table and run a query in pgAdmin to confirm that the data has been uploaded.
 
+- Customers table
+
 ![ETL on the Amazon reviews](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/customers_table_sql.png)
-![ETL on the Amazon reviews](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/products_table_sql.png)
-![ETL on the Amazon reviews](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/review_id_table_sql.png)
-![ETL on the Amazon reviews](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/vine_table_sql.png)
+
+- Products table
+
+![Products table](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/products_table_sql.png)
+
+- Review id table
+
+![Review id table](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/review_id_table_sql.png)
+
+- Vine table
+
+![Vine table](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/vine_table_sql.png)
 
 ### Determine Bias of Vine Reviews
 
