@@ -42,3 +42,5 @@ We will determine whether reviews written as part of the Vine program are biased
 ![NON VINE REVIEWS ANALYSIS](https://github.com/Simro25011/Amazon_Vine_Analysis/blob/main/Resources/Non_vine_reviews_analysis.png)
 
 ## Summary
+
+After reviewing the results of comparing Vine reviews to other vendors, there is a bias against reviews in the Vine program. As shown above, 0% of Vine member reviews are 5 stars, and 42% of non-Vine member reviews are 5 stars. The total number of Vine reviews versus non-Vine reviews is significant.
